@@ -28,8 +28,8 @@
 
 1. **複製儲存庫到本地端** (請將連結替換為你的 GitHub URL)：
    ```bash
-   git clone https://github.com/你的使用者名稱/你的專案名稱.git
-   cd 你的專案名稱
+   git clone https://github.com/HiTea-1089/Bricks-Breaking.git
+   cd Bricks-Breaking
    ```
 
 2. **安裝依賴套件**：
