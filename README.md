@@ -18,7 +18,7 @@
 
 ## 安裝與執行指令
 
-1. **複製儲存庫到本地端** (請將連結替換為你的 GitHub URL)：
+1. **複製儲存庫到本地端**：
    ```bash
    git clone https://github.com/HiTea-1089/Bricks-Breaking.git
    cd Bricks-Breaking
