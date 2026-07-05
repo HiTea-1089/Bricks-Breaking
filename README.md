@@ -2,6 +2,14 @@
 
 這是一個使用 Python 和 Pygame 函式庫開發的經典打磚塊 (Breakout) 遊戲。玩家需要透過移動底部的擋板來反彈小球，目標是擊碎畫面上方所有的磚塊。
 
+## 快速執行 (免安裝 Python)
+
+如果你不想設定開發環境，可以直接使用我們打包好的執行檔：
+1. 開啟 `BreakoutcloneAI` 資料夾。
+2. 直接點擊兩下 `BreakoutcloneAI.exe` 即可開始遊戲！
+
+---
+
 ## 遊戲特色
 
 *   **經典街機體驗**：還原經典打磚塊遊戲的核心玩法，包含精準的邊界與磚塊碰撞檢測。
@@ -9,19 +17,19 @@
 *   **完整的遊戲生命週期**：包含開始畫面 (Start Menu)、遊戲進行 (Gameplay)、勝利 (Win) 與失敗 (Game Over) 狀態切換。
 *   **互動式 UI 按鈕**：內建自定義的互動按鈕（Start, Restart, Leave），支援滑鼠點擊操作。
 
-## 系統需求
+## 開發者系統需求 (自行編譯或修改程式碼)
 
-在執行此遊戲之前，請確保您的系統已安裝以下環境與套件：
+如果您想要查看原始碼或自行編譯遊戲，請確保您的系統已安裝以下環境與套件：
 
 *   [Python 3.x](https://www.python.org/downloads/)
 *   [Pygame](https://www.pygame.org/wiki/GettingStarted) 模組
 
-## 安裝與執行指令
+### 開發環境安裝與執行指令
 
-1. **複製儲存庫到本地端**：
+1. **複製儲存庫到本地端** (請將連結替換為你的 GitHub URL)：
    ```bash
-   git clone https://github.com/HiTea-1089/Bricks-Breaking.git
-   cd Bricks-Breaking
+   git clone https://github.com/你的使用者名稱/你的專案名稱.git
+   cd 你的專案名稱
    ```
 
 2. **安裝依賴套件**：
@@ -29,7 +37,7 @@
    pip install pygame
    ```
 
-3. **啟動遊戲**：
+3. **從原始碼啟動遊戲**：
    ```bash
    python BreakoutcloneAI.py
    ```
